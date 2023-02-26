@@ -1,7 +1,3 @@
-provider "aws" { 
-    region = "us-east-1"
-}
-
 resource "aws_codebuild_project" "tf-plan" {
   name          = "tf-cicd-plan2"
   description   = "Plan stage for terraform"
